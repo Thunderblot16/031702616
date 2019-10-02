@@ -202,5 +202,5 @@ list=["姓名","手机","地址"]
 book={}
 for j in range(len(list)):
     book[list[j]]=sum[j]
-Json=json.dumps(book,indent =4,ensure_ascii=False)
+Json=json.dumps(book,ensure_ascii=False)
 print(Json)
